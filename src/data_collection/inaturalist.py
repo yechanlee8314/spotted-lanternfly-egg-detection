@@ -38,47 +38,58 @@ class INaturalistClient:
         # 3. Parse and structure the JSON response into records
         parsed_records = []
         for obs in response.get("results", []):
-            # Extract location coordinates safely
-            location = obs.get("location")
-
-            lat, lon = None, None
-            if location:
-                lat_str, lon_str = location.split(",")
-                lat = float(lat_str)
-                lon = float(lon_str)
-            # Build data dictionary row by row
-            record = {
-                "observation_id": obs.get("id"),
-                "species_name": obs.get("taxon", {}).get("name"),
-                "common_name": obs.get("taxon", {}).get("preferred_common_name"),
-                "observed_on": obs.get("observed_on_details", {}).get("date"),
-                "latitude": lat,
-                "longitude": lon,
-                "quality_grade": obs.get("quality_grade"),
-                "user": obs.get("user", {}).get("login"),
-                "image_url": (
-                    obs.get("photos", [{}])[0].get("url")
-                    if obs.get("photos")
-                    else None
-                ),
-            }
+            record = self.parse_observation(obs)
             parsed_records.append(record)
         print(f"Found {len(response['results'])} observations")
         # 4. Convert the structured list to a Pandas DataFrame
         df = pd.DataFrame(parsed_records)
 
         # 5. Export dataset as a CSV file
-        output_dir = Path("data/metadata")
-        output_dir.mkdir(parents=True, exist_ok=True)
-
-        output_filename = output_dir / (
-            f"inat_dataset_{target_taxon.lower().replace(' ', '_')}.csv"
-        )
-        df.to_csv(output_filename, index=False)
+       
+        output_filename = f"inat_dataset_{target_taxon.lower().replace(' ', '_')}.csv"
+        self.save_df(df,output_filename)
 
         print(f"Success! Saved {len(df)} records to '{output_filename}'")
         return df
+    
+    def parse_observation(self, obs):
 
+        location = obs.get("location")
+
+        lat, lon = None, None
+        if location:
+            lat_str, lon_str = location.split(",")
+            lat = float(lat_str)
+            lon = float(lon_str)
+        # Build data dictionary row by row
+        record = {
+            "observation_id": obs.get("id"),
+            "species_name": obs.get("taxon", {}).get("name"),
+            "common_name": obs.get("taxon", {}).get("preferred_common_name"),
+            "observed_on": obs.get("observed_on_details", {}).get("date"),
+            "latitude": lat,
+            "longitude": lon,
+            "quality_grade": obs.get("quality_grade"),
+            "user": obs.get("user", {}).get("login"),
+            "image_url": (
+                obs.get("photos", [{}])[0].get("url")
+                if obs.get("photos")
+                else None
+            ),
+        }
+        return record
+
+    def save_df(self, df, filename):
+        output_dir = Path("data/metadata")
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        output_path = output_dir / filename
+        df.to_csv(output_path, index=False)
+
+        print(f"Saved {len(df)} records to {output_path}")
+
+    # def download_images(df):
+        
 
 if __name__ == "__main__":
 
