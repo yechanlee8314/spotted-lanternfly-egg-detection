@@ -1,2 +1,0 @@
-observation_id,species_name,common_name,observed_on,quality_grade,image_url,local_image_path,download_success
-407774223,Lymantria dispar,Spongy Moth,2026-10-11,research,https://inaturalist-open-data.s3.amazonaws.com/photos/749427537/large.jpg,data/raw/images/407774223.jpg,True

@@ -1,107 +1,20 @@
-
+# downloads the images directly from the df metadata
 from pathlib import Path
-import shutil
-
-import pandas as pd
 import requests
+import os
+import pandas as pd
+import csv
 
+class ImageDownloader:
 
-class INaturalistClient:
-    BASE_URL = "https://api.inaturalist.org/v1"
-
-    def __init__(self):
-        self.session = requests.Session()
-
-    def get_observations(self, **params):
-        response = self.session.get(
-            f"{self.BASE_URL}/observations",
-            params=params,
-            timeout=30,
-        )
+    def get_response(self, source, params):
+        response = requests.get(
+            source, 
+            params = params,
+            timeout = 5)
         response.raise_for_status()
-        return response.json()
-
-
-    def fetch_inaturalist_dataset(
-        self,
-        target_taxon,
-        project_id,
-        max_observations=5,
-    ):
-        print(f"Fetching observations for {target_taxon}...")
-
-        params = {
-            "taxon_name": target_taxon,
-            "project_id": project_id,
-            "per_page": max_observations,
-            "page": 1,
-        }
-
-        response = self.get_observations(**params)
-        print(response.get("results"))
-        observations = response.get("results", [])
-        
-        records = [
-            self.parse_observation(obs)
-            for obs in observations
-        ]
-
-        df = pd.DataFrame(records)
-
-        if df.empty:
-            print("No observations returned.")
-            return df
-
-        image_dir = Path("data/raw/images")
-        image_dir.mkdir(parents=True, exist_ok=True)
-
-        image_paths = []
-        download_results = []
-
-        for _, row in df.iterrows():
-            observation_id = row["observation_id"]
-            url = row["image_url"]
-
-            if pd.isna(url) or not url:
-                image_paths.append(None)
-                download_results.append(False)
-                print(f"Skipping observation {observation_id}: no image URL")
-                continue
-
-            image_path = image_dir / f"{observation_id}.jpg"
-
-            # Reuse an existing file if it has already been downloaded.
-            if image_path.exists() and image_path.stat().st_size > 0:
-                success = True
-            else:
-                success = self.download_image_stream(
-                    url, image_path
-                )
-
-            image_paths.append(
-                str(image_path) if success else None
-            )
-            download_results.append(success)
-
-            if not success:
-                print(f"Download failed: observation {observation_id}")
-
-        df["local_image_path"] = image_paths
-        df["download_success"] = download_results
-
-        output_filename = (
-            f"inat_dataset_{target_taxon.lower().replace(' ', '_')}.csv"
-        )
-        self.save_df(df, output_filename)
-
-        successful = sum(download_results)
-        print(
-            f"Finished: {len(df)} observations, "
-            f"{successful} images available."
-        )
-        return df
-
-
+        return response
+    
     def parse_observation(self, obs):
         photos = obs.get("photos", [])
 
@@ -119,55 +32,98 @@ class INaturalistClient:
             "observation_id": obs.get("id"),
             "species_name": taxon.get("name"),
             "common_name": taxon.get("preferred_common_name"),
-            "observed_on": obs.get("observed_on"),
-            "quality_grade": obs.get("quality_grade"),
             "image_url": image_url,
         }
 
-    def save_df(self, df, filename):
-        output_dir = Path("data/metadata")
-        output_dir.mkdir(parents=True, exist_ok=True)
+    print("Filtered CSV file created successfully!")
 
-        output_path = output_dir / filename
-        df.to_csv(output_path, index=False)
+    def fetch_dataset(self, url, target_id, project_id, max_observations, quality_grade):
+        print(f"Fetching observations for {target_id}...")
+        payload = {
+            "taxon_id": target_id,
+            "project_id": project_id,
+            "per_page": max_observations,
+            "page": 1,
+            "quality_grade":quality_grade,
+        }
+        response = self.get_response(source = url, params = payload)
+        
+            #TODO filter for error/empty response 
 
-        print(f"Saved metadata to {output_path}")
+        # code to obtain keys of the returned dictionary
+        # data = response.json()
+        # data = data.get("results")
+        # keys= data[0].keys()
+        # print(list(keys))
 
-    @staticmethod
-    def download_image_stream(url, dest_path):
-        if not isinstance(url, str) or not url.strip():
-            return False
+    
+        observations = response.json().get("results")
 
+        if observations:
+            records = []
+            for obs in observations:
+                records.append(self.parse_observation(obs))
+
+            target_folder = "data/metadata" 
+            os.makedirs(target_folder, exist_ok=True)
+            filename = os.path.join(target_folder, "observations.csv")
+            fieldnames = ["observation_id","species_name", "common_name", "image_url", "local_image_path"]
+
+
+            for record in records:
+                local_image_path = self.download_image(
+                    common_name=record.get("common_name"), 
+                    image_url=record.get("image_url"), 
+                    observation_id=record.get("observation_id")
+                )
+                record["local_image_path"] = local_image_path
+            with open(filename, mode="w", newline="", encoding="utf-8") as csvfile:
+                
+                writer = csv.DictWriter(
+                    csvfile, fieldnames=fieldnames, extrasaction="ignore"
+                )
+
+                writer.writeheader()
+                writer.writerows(records)
+            with open(filename, "r", encoding="utf-8") as csvfile:
+                print(csvfile.read())
+            print(f"Saved filtered data to {filename}")
+
+        
+
+    def download_image(self, common_name, image_url, observation_id):
+        if not image_url:
+            return None
+
+        if not common_name:
+            common_name = "unknown_species"
+
+        image_folder = Path("data/raw/images") / common_name
+        image_folder.mkdir(parents=True, exist_ok=True)
+        image_path = image_folder / f"{observation_id}.jpg"
         try:
-            with requests.get(
-                url, stream=True, timeout=20
-            ) as response:
-                response.raise_for_status()
+            response = requests.get(image_url, stream=True, timeout=10)
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            print(f"Image download failed: {e}")
+            return None
+        
+        chunk_size = 2000
+        with open(image_path, 'wb') as fd:
+            for chunk in response.iter_content(chunk_size):
+                fd.write(chunk)
+        return str(image_path)
 
-                with open(dest_path, "wb") as file:
-                    shutil.copyfileobj(
-                        response.raw, file
-                    )
-
-            # Reject empty files.
-            if dest_path.stat().st_size == 0:
-                dest_path.unlink()
-                return False
-
-            return True
-
-        except (requests.RequestException, OSError) as error:
-            print(f"Image download error: {error}")
-            if dest_path.exists():
-                dest_path.unlink()
-            return False
+        
 
 
 if __name__ == "__main__":
-    client = INaturalistClient()
+    client = ImageDownloader()
 
-    client.fetch_inaturalist_dataset(
-        target_taxon="Lymantria dispar",
-        project_id="eggs-egg-coverings-of-terrestrial-invertebrates",
-        max_observations=2,
+    client.fetch_dataset(
+        url = "https://api.inaturalist.org/v1/observations",
+        target_id="54743",
+        project_id="",
+        max_observations = 50,
+        quality_grade="research",
     )
