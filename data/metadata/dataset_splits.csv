@@ -1,0 +1,196 @@
+observation_id,local_image_path,label,verified,notes,split
+404628693,data/raw/images/Spotted Lanternfly/404628693.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+404609846,data/raw/images/lichen/404609846.jpg,lookalike,True,British soldier lichen confirmed visually,train
+330406305,data/raw/images/North American Wheel Bug/330406305.jpg,other_eggs,True,Eggs confirmed visually,train
+411644804,data/raw/images/fungi/411644804.jpg,lookalike,True,bicoloured bracket confirmed visually,train
+408563940,data/raw/images/Spotted Lanternfly/408563940.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+412463042,data/raw/images/fungi/412463042.jpg,lookalike,True,Pear-shaped Puffball confirmed visually,train
+411427856,data/raw/images/fungi/411427856.jpg,lookalike,True,crowded parchment confirmed visually,train
+399081799,data/raw/images/lichen/399081799.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+407862678,data/raw/images/Spotted Lanternfly/407862678.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+402853429,data/raw/images/lichen/402853429.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+393919465,data/raw/images/Spotted Lanternfly/393919465.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+395462898,data/raw/images/Spongy Moth/395462898.jpg,other_eggs,True,Eggs confirmed visually,train
+409495628,data/raw/images/Spotted Lanternfly/409495628.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+402786479,data/raw/images/lichen/402786479.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+401646158,data/raw/images/lichen/401646158.jpg,lookalike,True,Mapledust Lichen confirmed visually,train
+411644803,data/raw/images/fungi/411644803.jpg,lookalike,True,Resinous Polypore confirmed visually,train
+334735680,data/raw/images/Eastern Tent Caterpillar Moth/334735680.jpg,other_eggs,True,Eggs confirmed visually,train
+408594688,data/raw/images/Spotted Lanternfly/408594688.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+390358655,data/raw/images/Spongy Moth/390358655.jpg,other_eggs,True,Eggs confirmed visually,train
+406353991,data/raw/images/Spotted Lanternfly/406353991.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410174115,data/raw/images/Spotted Lanternfly/410174115.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+406788688,data/raw/images/Spotted Lanternfly/406788688.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410174053,data/raw/images/Spotted Lanternfly/410174053.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410974288,data/raw/images/lichen/410974288.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+396671918,data/raw/images/Spongy Moth/396671918.jpg,other_eggs,True,Eggs confirmed visually,train
+328992805,data/raw/images/North American Wheel Bug/328992805.jpg,other_eggs,True,Eggs confirmed visually,train
+401166262,data/raw/images/Spongy Moth/401166262.jpg,other_eggs,True,Eggs confirmed visually,train
+412253294,data/raw/images/fungi/412253294.jpg,lookalike,True,turkey-tail confirmed visually,train
+85107843,data/raw/images/Spined Soldier Bug/85107843.jpg,other_eggs,True,Eggs confirmed visually,train
+299169184,data/raw/images/Spined Soldier Bug/299169184.jpg,other_eggs,True,Eggs confirmed visually,train
+411203457,data/raw/images/fungi/411203457.jpg,lookalike,True,Orange-cored Shadow Lichen confirmed visually,train
+411397147,data/raw/images/fungi/411397147.jpg,lookalike,True,Yellow Fairy Cups confirmed visually,train
+410792795,data/raw/images/fungi/410792795.jpg,lookalike,True,Trembling Crust confirmed visually,train
+390930569,data/raw/images/Spongy Moth/390930569.jpg,other_eggs,True,Eggs confirmed visually,train
+410754196,data/raw/images/fungi/410754196.jpg,lookalike,True,Toothed Jelly Fungus confirmed visually,train
+334092113,data/raw/images/North American Wheel Bug/334092113.jpg,other_eggs,True,Eggs confirmed visually,train
+390951309,data/raw/images/Spongy Moth/390951309.jpg,other_eggs,True,Eggs confirmed visually,train
+405341641,data/raw/images/Spotted Lanternfly/405341641.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+399756030,data/raw/images/Spongy Moth/399756030.jpg,other_eggs,True,Eggs confirmed visually,train
+401710254,data/raw/images/lichen/401710254.jpg,lookalike,True,Smokey-eyed Boulder Lichen confirmed visually,train
+333664874,data/raw/images/North American Wheel Bug/333664874.jpg,other_eggs,True,Eggs confirmed visually,train
+411642714,data/raw/images/Spotted Lanternfly/411642714.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+367302932,data/raw/images/Eastern Tent Caterpillar Moth/367302932.jpg,other_eggs,True,Eggs confirmed visually,train
+405559829,data/raw/images/Spotted Lanternfly/405559829.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+343914082,data/raw/images/Eastern Tent Caterpillar Moth/343914082.jpg,other_eggs,True,Eggs confirmed visually,train
+393606789,data/raw/images/Spongy Moth/393606789.jpg,other_eggs,True,Eggs confirmed visually,train
+299552364,data/raw/images/Eastern Tent Caterpillar Moth/299552364.jpg,other_eggs,True,Eggs confirmed visually,train
+406354294,data/raw/images/Spotted Lanternfly/406354294.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+400554524,data/raw/images/lichen/400554524.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+411061600,data/raw/images/fungi/411061600.jpg,lookalike,True,Black Tar Spot confirmed visually,train
+411574086,data/raw/images/fungi/411574086.jpg,lookalike,True,Pear-shaped Puffball confirmed visually,train
+408842528,data/raw/images/Spotted Lanternfly/408842528.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410976366,data/raw/images/lichen/410976366.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+411619349,data/raw/images/fungi/411619349.jpg,lookalike,True,Pear-shaped Puffball confirmed visually,train
+410611295,data/raw/images/Spotted Lanternfly/410611295.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+333519670,data/raw/images/North American Wheel Bug/333519670.jpg,other_eggs,True,Eggs confirmed visually,train
+411475789,data/raw/images/Spotted Lanternfly/411475789.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+412864955,data/raw/images/Spotted Lanternfly/412864955.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+26146137,data/raw/images/Spined Soldier Bug/26146137.jpg,other_eggs,True,Eggs confirmed visually,train
+395091910,data/raw/images/Spongy Moth/395091910.jpg,other_eggs,True,Eggs confirmed visually,train
+390769023,data/raw/images/Spongy Moth/390769023.jpg,other_eggs,True,Eggs confirmed visually,train
+390510451,data/raw/images/Spongy Moth/390510451.jpg,other_eggs,True,Eggs confirmed visually,train
+177341719,data/raw/images/Spined Soldier Bug/177341719.jpg,other_eggs,True,Eggs confirmed visually,train
+404510147,data/raw/images/lichen/404510147.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+7334890,data/raw/images/Spined Soldier Bug/7334890.jpg,other_eggs,True,Eggs confirmed visually,train
+396150759,data/raw/images/lichen/396150759.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+401653795,data/raw/images/lichen/401653795.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+410970531,data/raw/images/lichen/410970531.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+401655924,data/raw/images/lichen/401655924.jpg,lookalike,True,rough speckled shield lichen confirmed visually,train
+404661640,data/raw/images/Spongy Moth/404661640.jpg,other_eggs,True,Eggs confirmed visually,train
+296624543,data/raw/images/Eastern Tent Caterpillar Moth/296624543.jpg,other_eggs,True,Eggs confirmed visually,train
+407075958,data/raw/images/Spotted Lanternfly/407075958.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+396721286,data/raw/images/Spotted Lanternfly/396721286.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+412016020,data/raw/images/Spotted Lanternfly/412016020.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+397882048,data/raw/images/lichen/397882048.jpg,lookalike,True,Common Script Lichen confirmed visually,train
+410791815,data/raw/images/fungi/410791815.jpg,lookalike,True,orange hobnail canker confirmed visually,train
+412669721,data/raw/images/Spotted Lanternfly/412669721.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+390839267,data/raw/images/Spongy Moth/390839267.jpg,other_eggs,True,Eggs confirmed visually,train
+398943813,data/raw/images/Spongy Moth/398943813.jpg,other_eggs,True,Eggs confirmed visually,train
+5503350,data/raw/images/Spined Soldier Bug/5503350.jpg,other_eggs,True,Eggs confirmed visually,train
+388944811,data/raw/images/Spongy Moth/388944811.jpg,other_eggs,True,Eggs confirmed visually,train
+408594774,data/raw/images/Spotted Lanternfly/408594774.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+411507926,data/raw/images/fungi/411507926.jpg,lookalike,True,turkey-tail confirmed visually,train
+340770550,data/raw/images/Eastern Tent Caterpillar Moth/340770550.jpg,other_eggs,True,Eggs confirmed visually,train
+411371737,data/raw/images/fungi/411371737.jpg,lookalike,True,crowded parchment confirmed visually,train
+407791419,data/raw/images/Spotted Lanternfly/407791419.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+407774223,data/raw/images/Spongy Moth/407774223.jpg,other_eggs,True,Eggs confirmed visually,train
+330342345,data/raw/images/North American Wheel Bug/330342345.jpg,other_eggs,True,Eggs confirmed visually,train
+408090795,data/raw/images/Spotted Lanternfly/408090795.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+212476090,data/raw/images/Spined Soldier Bug/212476090.jpg,other_eggs,True,Eggs confirmed visually,train
+411850828,data/raw/images/fungi/411850828.jpg,lookalike,True,Lumpy Bracket confirmed visually,train
+411040441,data/raw/images/lichen/411040441.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+334402607,data/raw/images/North American Wheel Bug/334402607.jpg,other_eggs,True,Eggs confirmed visually,train
+354493962,data/raw/images/Spotted Lanternfly/354493962.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+393952162,data/raw/images/Spongy Moth/393952162.jpg,other_eggs,True,Eggs confirmed visually,train
+402578503,data/raw/images/lichen/402578503.jpg,lookalike,True,Smokey-eyed Boulder Lichen confirmed visually,train
+402828702,data/raw/images/lichen/402828702.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+411574152,data/raw/images/fungi/411574152.jpg,lookalike,True,Green Wood Cup confirmed visually,train
+410559608,data/raw/images/Spotted Lanternfly/410559608.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+338882185,data/raw/images/Eastern Tent Caterpillar Moth/338882185.jpg,other_eggs,True,Eggs confirmed visually,train
+331485202,data/raw/images/North American Wheel Bug/331485202.jpg,other_eggs,True,Eggs confirmed visually,train
+331585897,data/raw/images/North American Wheel Bug/331585897.jpg,other_eggs,True,Eggs confirmed visually,train
+354504430,data/raw/images/Spotted Lanternfly/354504430.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+394999234,data/raw/images/Spongy Moth/394999234.jpg,other_eggs,True,Eggs confirmed visually,train
+396986011,data/raw/images/lichen/396986011.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+396731141,data/raw/images/Spongy Moth/396731141.jpg,other_eggs,True,Eggs confirmed visually,train
+263917926,data/raw/images/Spined Soldier Bug/263917926.jpg,other_eggs,True,Eggs confirmed visually,train
+339213890,data/raw/images/Eastern Tent Caterpillar Moth/339213890.jpg,other_eggs,True,Eggs confirmed visually,train
+406922570,data/raw/images/Spotted Lanternfly/406922570.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+399652898,data/raw/images/lichen/399652898.jpg,lookalike,True,Smokey-eyed Boulder Lichen confirmed visually,train
+411082172,data/raw/images/fungi/411082172.jpg,lookalike,True,Veiled Polypore confirmed visually,train
+373769387,data/raw/images/Spotted Lanternfly/373769387.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410993373,data/raw/images/Spotted Lanternfly/410993373.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+409330053,data/raw/images/Spotted Lanternfly/409330053.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+393611847,data/raw/images/Spongy Moth/393611847.jpg,other_eggs,True,Eggs confirmed visually,train
+333789156,data/raw/images/North American Wheel Bug/333789156.jpg,other_eggs,True,Eggs confirmed visually,train
+265073057,data/raw/images/Spined Soldier Bug/265073057.jpg,other_eggs,True,Eggs confirmed visually,train
+410187447,data/raw/images/Spotted Lanternfly/410187447.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+412308341,data/raw/images/Spotted Lanternfly/412308341.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+410173978,data/raw/images/Spotted Lanternfly/410173978.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+411742599,data/raw/images/Spotted Lanternfly/411742599.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+331444576,data/raw/images/North American Wheel Bug/331444576.jpg,other_eggs,True,Eggs confirmed visually,train
+179684826,data/raw/images/Spined Soldier Bug/179684826.jpg,other_eggs,True,Eggs confirmed visually,train
+413003809,data/raw/images/Spotted Lanternfly/413003809.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+405559517,data/raw/images/Spotted Lanternfly/405559517.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+354703486,data/raw/images/Spotted Lanternfly/354703486.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+401653980,data/raw/images/lichen/401653980.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+411373503,data/raw/images/fungi/411373503.jpg,lookalike,True,chicken of the woods confirmed visually,train
+402877001,data/raw/images/lichen/402877001.jpg,lookalike,True,common greenshield lichen confirmed visually,train
+405941865,data/raw/images/lichen/405941865.jpg,lookalike,True,rough speckled shield lichen confirmed visually,train
+380784029,data/raw/images/Eastern Tent Caterpillar Moth/380784029.jpg,other_eggs,True,Eggs confirmed visually,train
+332357523,data/raw/images/North American Wheel Bug/332357523.jpg,other_eggs,True,Eggs confirmed visually,train
+408548564,data/raw/images/Spotted Lanternfly/408548564.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+405819976,data/raw/images/Spotted Lanternfly/405819976.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+409706341,data/raw/images/Spotted Lanternfly/409706341.jpg,slf_egg_mass,True,Eggs confirmed visually,train
+401425318,data/raw/images/Spongy Moth/401425318.jpg,other_eggs,True,Eggs confirmed visually,train
+402302062,data/raw/images/lichen/402302062.jpg,lookalike,True,common greenshield lichen confirmed visually,validation
+412262999,data/raw/images/fungi/412262999.jpg,lookalike,True,Lumpy Bracket confirmed visually,validation
+411370717,data/raw/images/Spotted Lanternfly/411370717.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+388587241,data/raw/images/Spotted Lanternfly/388587241.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+389303332,data/raw/images/Spongy Moth/389303332.jpg,other_eggs,True,Eggs confirmed visually,validation
+390777334,data/raw/images/Spongy Moth/390777334.jpg,other_eggs,True,Eggs confirmed visually,validation
+401726051,data/raw/images/Spongy Moth/401726051.jpg,other_eggs,True,Eggs confirmed visually,validation
+390763815,data/raw/images/Spongy Moth/390763815.jpg,other_eggs,True,Eggs confirmed visually,validation
+411423498,data/raw/images/fungi/411423498.jpg,lookalike,True,Asian Beauty confirmed visually,validation
+292532939,data/raw/images/Spined Soldier Bug/292532939.jpg,other_eggs,True,Eggs confirmed visually,validation
+410846800,data/raw/images/fungi/410846800.jpg,lookalike,True,oak bracket confirmed visually,validation
+412846944,data/raw/images/Spotted Lanternfly/412846944.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+412349808,data/raw/images/fungi/412349808.jpg,lookalike,True,chicken of the woods confirmed visually,validation
+411186600,data/raw/images/fungi/411186600.jpg,lookalike,True,orange hobnail canker confirmed visually,validation
+394723257,data/raw/images/Spongy Moth/394723257.jpg,other_eggs,True,Eggs confirmed visually,validation
+399911339,data/raw/images/Spongy Moth/399911339.jpg,other_eggs,True,Eggs confirmed visually,validation
+331600166,data/raw/images/North American Wheel Bug/331600166.jpg,other_eggs,True,Eggs confirmed visually,validation
+404798746,data/raw/images/Spotted Lanternfly/404798746.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+412529329,data/raw/images/Spotted Lanternfly/412529329.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+410195431,data/raw/images/Spotted Lanternfly/410195431.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+320482998,data/raw/images/Eastern Tent Caterpillar Moth/320482998.jpg,other_eggs,True,Eggs confirmed visually,validation
+300399968,data/raw/images/Eastern Tent Caterpillar Moth/300399968.jpg,other_eggs,True,Eggs confirmed visually,validation
+411642659,data/raw/images/Spotted Lanternfly/411642659.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+408059644,data/raw/images/Spotted Lanternfly/408059644.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+121377712,data/raw/images/Spined Soldier Bug/121377712.jpg,other_eggs,True,Eggs confirmed visually,validation
+408594226,data/raw/images/Spotted Lanternfly/408594226.jpg,slf_egg_mass,True,Eggs confirmed visually,validation
+401697466,data/raw/images/lichen/401697466.jpg,lookalike,True,greenshield lichen confirmed visually,validation
+411481317,data/raw/images/fungi/411481317.jpg,lookalike,True,Fluffy Dust Lichen confirmed visually,validation
+411644795,data/raw/images/fungi/411644795.jpg,lookalike,True,Trembling Crust confirmed visually,validation
+329702314,data/raw/images/North American Wheel Bug/329702314.jpg,other_eggs,True,Eggs confirmed visually,test
+308266207,data/raw/images/Eastern Tent Caterpillar Moth/308266207.jpg,other_eggs,True,Eggs confirmed visually,test
+330743492,data/raw/images/North American Wheel Bug/330743492.jpg,other_eggs,True,Eggs confirmed visually,test
+411201262,data/raw/images/fungi/411201262.jpg,lookalike,True,Asian Beauty confirmed visually,test
+371199467,data/raw/images/Eastern Tent Caterpillar Moth/371199467.jpg,other_eggs,True,Eggs confirmed visually,test
+412316880,data/raw/images/fungi/412316880.jpg,lookalike,True,turkey-tail confirmed visually,test
+358062103,data/raw/images/Eastern Tent Caterpillar Moth/358062103.jpg,other_eggs,True,Eggs confirmed visually,test
+397921938,data/raw/images/lichen/397921938.jpg,lookalike,True,Common Toadskin Lichen confirmed visually,test
+406176769,data/raw/images/Spotted Lanternfly/406176769.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+411956281,data/raw/images/fungi/411956281.jpg,lookalike,True,Rosellinia subiculata confirmed visually,test
+408594292,data/raw/images/Spotted Lanternfly/408594292.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+409787842,data/raw/images/Spotted Lanternfly/409787842.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+295106157,data/raw/images/Eastern Tent Caterpillar Moth/295106157.jpg,other_eggs,True,Eggs confirmed visually,test
+231311830,data/raw/images/Spined Soldier Bug/231311830.jpg,other_eggs,True,Eggs confirmed visually,test
+218194070,data/raw/images/Spined Soldier Bug/218194070.jpg,other_eggs,True,Eggs confirmed visually,test
+402077676,data/raw/images/lichen/402077676.jpg,lookalike,True,Smokey-eyed Boulder Lichen confirmed visually,test
+392113658,data/raw/images/Spongy Moth/392113658.jpg,other_eggs,True,Eggs confirmed visually,test
+412320050,data/raw/images/fungi/412320050.jpg,lookalike,True,Sweet knot confirmed visually,test
+193087082,data/raw/images/Spined Soldier Bug/193087082.jpg,other_eggs,True,Eggs confirmed visually,test
+406928953,data/raw/images/Spotted Lanternfly/406928953.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+406838545,data/raw/images/Spotted Lanternfly/406838545.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+399966773,data/raw/images/lichen/399966773.jpg,lookalike,True,common greenshield lichen confirmed visually,test
+398795942,data/raw/images/lichen/398795942.jpg,lookalike,True,Golden Moonglow Lichen confirmed visually,test
+406354116,data/raw/images/Spotted Lanternfly/406354116.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+390386094,data/raw/images/Spongy Moth/390386094.jpg,other_eggs,True,Eggs confirmed visually,test
+396212937,data/raw/images/lichen/396212937.jpg,lookalike,True,common greenshield lichen confirmed visually,test
+387591043,data/raw/images/Spongy Moth/387591043.jpg,other_eggs,True,Eggs confirmed visually,test
+408593017,data/raw/images/Spotted Lanternfly/408593017.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+410195449,data/raw/images/Spotted Lanternfly/410195449.jpg,slf_egg_mass,True,Eggs confirmed visually,test
+354503953,data/raw/images/Spotted Lanternfly/354503953.jpg,slf_egg_mass,True,Eggs confirmed visually,test

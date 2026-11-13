@@ -37,14 +37,16 @@ class ImageDownloader:
 
     print("Filtered CSV file created successfully!")
 
-    def fetch_dataset(self, url, target_id, project_id, max_observations, quality_grade):
+    def fetch_dataset(
+        self, url, target_id, 
+        max_observations, quality_grade, folder_name):
         print(f"Fetching observations for {target_id}...")
         payload = {
             "taxon_id": target_id,
-            "project_id": project_id,
             "per_page": max_observations,
             "page": 1,
             "quality_grade":quality_grade,
+            "place_id": 51 #new jersey
         }
         response = self.get_response(source = url, params = payload)
         
@@ -54,7 +56,7 @@ class ImageDownloader:
         # data = response.json()
         # data = data.get("results")
         # keys= data[0].keys()
-        # print(list(keys))
+        # print(data)
 
     
         observations = response.json().get("results")
@@ -72,8 +74,8 @@ class ImageDownloader:
 
             for record in records:
                 local_image_path = self.download_image(
-                    common_name=record.get("common_name"), 
-                    image_url=record.get("image_url"), 
+                    folder_name=folder_name,
+                    image_url=record.get("image_url"),
                     observation_id=record.get("observation_id")
                 )
                 record["local_image_path"] = local_image_path
@@ -91,39 +93,43 @@ class ImageDownloader:
 
         
 
-    def download_image(self, common_name, image_url, observation_id):
+    
+    def download_image(self, folder_name, image_url, observation_id):
         if not image_url:
             return None
 
-        if not common_name:
-            common_name = "unknown_species"
-
-        image_folder = Path("data/raw/images") / common_name
+        image_folder = Path("data/raw/images") / folder_name
         image_folder.mkdir(parents=True, exist_ok=True)
+
         image_path = image_folder / f"{observation_id}.jpg"
+
         try:
             response = requests.get(image_url, stream=True, timeout=10)
             response.raise_for_status()
         except requests.exceptions.RequestException as e:
             print(f"Image download failed: {e}")
             return None
-        
-        chunk_size = 2000
-        with open(image_path, 'wb') as fd:
-            for chunk in response.iter_content(chunk_size):
-                fd.write(chunk)
+
+        with open(image_path, "wb") as fd:
+            for chunk in response.iter_content(chunk_size=2000):
+                if chunk:
+                    fd.write(chunk)
+
         return str(image_path)
 
-        
 
+        
 
 if __name__ == "__main__":
     client = ImageDownloader()
 
     client.fetch_dataset(
-        url = "https://api.inaturalist.org/v1/observations",
-        target_id="54743",
-        project_id="",
-        max_observations = 50,
+        url="https://api.inaturalist.org/v1/observations",
+        target_id=47170,  #id for fungus
+        # target_id=54743,
+        max_observations=100,
         quality_grade="research",
+        folder_name="fungi",
+        #folder_name="lichen",
+
     )

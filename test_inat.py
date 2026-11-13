@@ -1,24 +1,13 @@
-from src.data_collection.inaturalist import INaturalistClient
+import pandas as pd
 
-client = INaturalistClient()
+df = pd.read_csv("data/metadata/dataset_splits.csv")
 
-data = client.get_observations(
-    taxon_name="Lymantria dispar",
-    photos="true",
-    quality_grade="research",
-    per_page=5,
-)
+# Check whether an observation appears in multiple splits
+observation_splits = df.groupby("observation_id")["split"].nunique()
 
-print(data.keys())
-print(len(data["results"]))
-records = []
+leaked_observations = observation_splits[observation_splits > 1]
 
-for obs in data["results"]:
+print("Observations appearing in multiple splits:")
+print(leaked_observations)
 
-    records.append({
-        "id": obs["id"],
-        "species": obs["taxon"]["name"],
-        "date": obs["observed_on"],
-    })
-
-print(records)
+print("Number of potentially leaked observations:", len(leaked_observations))

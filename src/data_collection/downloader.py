@@ -50,10 +50,10 @@ class ImageDownloader:
             #TODO filter for error/empty response 
 
         # code to obtain keys of the returned dictionary
-        # data = response.json()
-        # data = data.get("results")
-        # keys= data[0].keys()
-        # print(list(keys))
+        data = response.json()
+        data = data.get("results")
+        keys= data[0].keys()
+        print(list(keys))
 
     
         observations = response.json().get("results")
@@ -121,8 +121,8 @@ if __name__ == "__main__":
 
     client.fetch_dataset(
         url = "https://api.inaturalist.org/v1/observations",
-        target_taxon="Alsophila pometaria",
+        target_taxon="Lycorma delicatula",
         project_id="eggs-egg-coverings-of-terrestrial-invertebrates",
-        max_observations = 50,
+        max_observations = 200,
         quality_grade="research",
     )

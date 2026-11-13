@@ -1,4 +1,64 @@
 observation_id,local_image_path,label,verified,notes
+411082172,data/raw/images/fungi/411082172.jpg,lookalike,true,Veiled Polypore confirmed visually
+411186600,data/raw/images/fungi/411186600.jpg,lookalike,true,orange hobnail canker confirmed visually
+411201262,data/raw/images/fungi/411201262.jpg,lookalike,true,Asian Beauty confirmed visually
+411203457,data/raw/images/fungi/411203457.jpg,lookalike,true,Orange-cored Shadow Lichen confirmed visually
+411371737,data/raw/images/fungi/411371737.jpg,lookalike,true,crowded parchment confirmed visually
+411373503,data/raw/images/fungi/411373503.jpg,lookalike,true,chicken of the woods confirmed visually
+411397147,data/raw/images/fungi/411397147.jpg,lookalike,true,Yellow Fairy Cups confirmed visually
+411423498,data/raw/images/fungi/411423498.jpg,lookalike,true,Asian Beauty confirmed visually
+411574152,data/raw/images/fungi/411574152.jpg,lookalike,true,Green Wood Cup confirmed visually
+411427856,data/raw/images/fungi/411427856.jpg,lookalike,true,crowded parchment confirmed visually
+411481317,data/raw/images/fungi/411481317.jpg,lookalike,true,Fluffy Dust Lichen confirmed visually
+411507926,data/raw/images/fungi/411507926.jpg,lookalike,true,turkey-tail confirmed visually
+411574086,data/raw/images/fungi/411574086.jpg,lookalike,true,Pear-shaped Puffball confirmed visually
+411619349,data/raw/images/fungi/411619349.jpg,lookalike,true,Pear-shaped Puffball confirmed visually
+411644795,data/raw/images/fungi/411644795.jpg,lookalike,true,Trembling Crust confirmed visually
+411644803,data/raw/images/fungi/411644803.jpg,lookalike,true,Resinous Polypore confirmed visually
+411644804,data/raw/images/fungi/411644804.jpg,lookalike,true,bicoloured bracket confirmed visually
+411850828,data/raw/images/fungi/411850828.jpg,lookalike,true,Lumpy Bracket confirmed visually
+411956281,data/raw/images/fungi/411956281.jpg,lookalike,true,Rosellinia subiculata confirmed visually
+412253294,data/raw/images/fungi/412253294.jpg,lookalike,true,turkey-tail confirmed visually
+412262999,data/raw/images/fungi/412262999.jpg,lookalike,true,Lumpy Bracket confirmed visually
+412316880,data/raw/images/fungi/412316880.jpg,lookalike,true,turkey-tail confirmed visually
+412320050,data/raw/images/fungi/412320050.jpg,lookalike,true,Sweet knot confirmed visually
+412349808,data/raw/images/fungi/412349808.jpg,lookalike,true,chicken of the woods confirmed visually
+412463042,data/raw/images/fungi/412463042.jpg,lookalike,true,Pear-shaped Puffball confirmed visually
+410754196,data/raw/images/fungi/410754196.jpg,lookalike,true,Toothed Jelly Fungus confirmed visually
+410791815,data/raw/images/fungi/410791815.jpg,lookalike,true,orange hobnail canker confirmed visually
+410792795,data/raw/images/fungi/410792795.jpg,lookalike,true,Trembling Crust confirmed visually
+410846800,data/raw/images/fungi/410846800.jpg,lookalike,true,oak bracket confirmed visually
+411061600,data/raw/images/fungi/411061600.jpg,lookalike,true,Black Tar Spot confirmed visually
+410970531,data/raw/images/lichen/410970531.jpg,lookalike,true,common greenshield lichen confirmed visually
+410974288,data/raw/images/lichen/410974288.jpg,lookalike,true,common greenshield lichen confirmed visually
+410976366,data/raw/images/lichen/410976366.jpg,lookalike,true,common greenshield lichen confirmed visually
+411040441,data/raw/images/lichen/411040441.jpg,lookalike,true,common greenshield lichen confirmed visually
+396150759,data/raw/images/lichen/396150759.jpg,lookalike,true,common greenshield lichen confirmed visually
+396212937,data/raw/images/lichen/396212937.jpg,lookalike,true,common greenshield lichen confirmed visually
+396986011,data/raw/images/lichen/396986011.jpg,lookalike,true,common greenshield lichen confirmed visually
+397882048,data/raw/images/lichen/397882048.jpg,lookalike,true,Common Script Lichen confirmed visually
+397921938,data/raw/images/lichen/397921938.jpg,lookalike,true,Common Toadskin Lichen confirmed visually
+398795942,data/raw/images/lichen/398795942.jpg,lookalike,true,Golden Moonglow Lichen confirmed visually
+399081799,data/raw/images/lichen/399081799.jpg,lookalike,true,common greenshield lichen confirmed visually
+399652898,data/raw/images/lichen/399652898.jpg,lookalike,true,Smokey-eyed Boulder Lichen confirmed visually
+399966773,data/raw/images/lichen/399966773.jpg,lookalike,true,common greenshield lichen confirmed visually
+400554524,data/raw/images/lichen/400554524.jpg,lookalike,true,common greenshield lichen confirmed visually
+401646158,data/raw/images/lichen/401646158.jpg,lookalike,true,Mapledust Lichen confirmed visually
+401653795,data/raw/images/lichen/401653795.jpg,lookalike,true,common greenshield lichen confirmed visually
+401653980,data/raw/images/lichen/401653980.jpg,lookalike,true,common greenshield lichen confirmed visually
+401655924,data/raw/images/lichen/401655924.jpg,lookalike,true,rough speckled shield lichen confirmed visually
+401697466,data/raw/images/lichen/401697466.jpg,lookalike,true,greenshield lichen confirmed visually
+401710254,data/raw/images/lichen/401710254.jpg,lookalike,true,Smokey-eyed Boulder Lichen confirmed visually
+402077676,data/raw/images/lichen/402077676.jpg,lookalike,true,Smokey-eyed Boulder Lichen confirmed visually
+402302062,data/raw/images/lichen/402302062.jpg,lookalike,true,common greenshield lichen confirmed visually
+402578503,data/raw/images/lichen/402578503.jpg,lookalike,true,Smokey-eyed Boulder Lichen confirmed visually
+402786479,data/raw/images/lichen/402786479.jpg,lookalike,true,common greenshield lichen confirmed visually
+402828702,data/raw/images/lichen/402828702.jpg,lookalike,true,common greenshield lichen confirmed visually
+402853429,data/raw/images/lichen/402853429.jpg,lookalike,true,common greenshield lichen confirmed visually
+402877001,data/raw/images/lichen/402877001.jpg,lookalike,true,common greenshield lichen confirmed visually
+404510147,data/raw/images/lichen/404510147.jpg,lookalike,true,common greenshield lichen confirmed visually
+404609846,data/raw/images/lichen/404609846.jpg,lookalike,true,British soldier lichen confirmed visually
+405941865,data/raw/images/lichen/405941865.jpg,lookalike,true,rough speckled shield lichen confirmed visually
 407774223,data/raw/images/Spongy Moth/407774223.jpg,other_eggs,true,Eggs confirmed visually
 387591043,data/raw/images/Spongy Moth/387591043.jpg,other_eggs,true,Eggs confirmed visually
 388944811,data/raw/images/Spongy Moth/388944811.jpg,other_eggs,true,Eggs confirmed visually
@@ -29,6 +89,61 @@ observation_id,local_image_path,label,verified,notes
 401425318,data/raw/images/Spongy Moth/401425318.jpg,other_eggs,true,Eggs confirmed visually
 401726051,data/raw/images/Spongy Moth/401726051.jpg,other_eggs,true,Eggs confirmed visually
 404661640,data/raw/images/Spongy Moth/404661640.jpg,other_eggs,true,Eggs confirmed visually
+
+295106157,data/raw/images/Eastern Tent Caterpillar Moth/295106157.jpg,other_eggs,true,Eggs confirmed visually
+296624543,data/raw/images/Eastern Tent Caterpillar Moth/296624543.jpg,other_eggs,true,Eggs confirmed visually
+299552364,data/raw/images/Eastern Tent Caterpillar Moth/299552364.jpg,other_eggs,true,Eggs confirmed visually
+300399968,data/raw/images/Eastern Tent Caterpillar Moth/300399968.jpg,other_eggs,true,Eggs confirmed visually
+308266207,data/raw/images/Eastern Tent Caterpillar Moth/308266207.jpg,other_eggs,true,Eggs confirmed visually
+320482998,data/raw/images/Eastern Tent Caterpillar Moth/320482998.jpg,other_eggs,true,Eggs confirmed visually
+334735680,data/raw/images/Eastern Tent Caterpillar Moth/334735680.jpg,other_eggs,true,Eggs confirmed visually
+338882185,data/raw/images/Eastern Tent Caterpillar Moth/338882185.jpg,other_eggs,true,Eggs confirmed visually
+339213890,data/raw/images/Eastern Tent Caterpillar Moth/339213890.jpg,other_eggs,true,Eggs confirmed visually
+340770550,data/raw/images/Eastern Tent Caterpillar Moth/340770550.jpg,other_eggs,true,Eggs confirmed visually
+343914082,data/raw/images/Eastern Tent Caterpillar Moth/343914082.jpg,other_eggs,true,Eggs confirmed visually
+358062103,data/raw/images/Eastern Tent Caterpillar Moth/358062103.jpg,other_eggs,true,Eggs confirmed visually
+367302932,data/raw/images/Eastern Tent Caterpillar Moth/367302932.jpg,other_eggs,true,Eggs confirmed visually
+371199467,data/raw/images/Eastern Tent Caterpillar Moth/371199467.jpg,other_eggs,true,Eggs confirmed visually
+380784029,data/raw/images/Eastern Tent Caterpillar Moth/380784029.jpg,other_eggs,true,Eggs confirmed visually
+
+328992805,data/raw/images/North American Wheel Bug/328992805.jpg,other_eggs,true,Eggs confirmed visually
+329702314,data/raw/images/North American Wheel Bug/329702314.jpg,other_eggs,true,Eggs confirmed visually
+330342345,data/raw/images/North American Wheel Bug/330342345.jpg,other_eggs,true,Eggs confirmed visually
+330406305,data/raw/images/North American Wheel Bug/330406305.jpg,other_eggs,true,Eggs confirmed visually
+330743492,data/raw/images/North American Wheel Bug/330743492.jpg,other_eggs,true,Eggs confirmed visually
+331444576,data/raw/images/North American Wheel Bug/331444576.jpg,other_eggs,true,Eggs confirmed visually
+331485202,data/raw/images/North American Wheel Bug/331485202.jpg,other_eggs,true,Eggs confirmed visually
+331585897,data/raw/images/North American Wheel Bug/331585897.jpg,other_eggs,true,Eggs confirmed visually
+331600166,data/raw/images/North American Wheel Bug/331600166.jpg,other_eggs,true,Eggs confirmed visually
+332357523,data/raw/images/North American Wheel Bug/332357523.jpg,other_eggs,true,Eggs confirmed visually
+333519670,data/raw/images/North American Wheel Bug/333519670.jpg,other_eggs,true,Eggs confirmed visually
+333664874,data/raw/images/North American Wheel Bug/333664874.jpg,other_eggs,true,Eggs confirmed visually
+333789156,data/raw/images/North American Wheel Bug/333789156.jpg,other_eggs,true,Eggs confirmed visually
+334092113,data/raw/images/North American Wheel Bug/334092113.jpg,other_eggs,true,Eggs confirmed visually
+334402607,data/raw/images/North American Wheel Bug/334402607.jpg,other_eggs,true,Eggs confirmed visually
+
+5503350,data/raw/images/Spined Soldier Bug/5503350.jpg,other_eggs,true,Eggs confirmed visually
+7334890,data/raw/images/Spined Soldier Bug/7334890.jpg,other_eggs,true,Eggs confirmed visually
+26146137,data/raw/images/Spined Soldier Bug/26146137.jpg,other_eggs,true,Eggs confirmed visually
+85107843,data/raw/images/Spined Soldier Bug/85107843.jpg,other_eggs,true,Eggs confirmed visually
+121377712,data/raw/images/Spined Soldier Bug/121377712.jpg,other_eggs,true,Eggs confirmed visually
+177341719,data/raw/images/Spined Soldier Bug/177341719.jpg,other_eggs,true,Eggs confirmed visually
+179684826,data/raw/images/Spined Soldier Bug/179684826.jpg,other_eggs,true,Eggs confirmed visually
+193087082,data/raw/images/Spined Soldier Bug/193087082.jpg,other_eggs,true,Eggs confirmed visually
+212476090,data/raw/images/Spined Soldier Bug/212476090.jpg,other_eggs,true,Eggs confirmed visually
+218194070,data/raw/images/Spined Soldier Bug/218194070.jpg,other_eggs,true,Eggs confirmed visually
+231311830,data/raw/images/Spined Soldier Bug/231311830.jpg,other_eggs,true,Eggs confirmed visually
+263917926,data/raw/images/Spined Soldier Bug/263917926.jpg,other_eggs,true,Eggs confirmed visually
+265073057,data/raw/images/Spined Soldier Bug/265073057.jpg,other_eggs,true,Eggs confirmed visually
+292532939,data/raw/images/Spined Soldier Bug/292532939.jpg,other_eggs,true,Eggs confirmed visually
+299169184,data/raw/images/Spined Soldier Bug/299169184.jpg,other_eggs,true,Eggs confirmed visually
+
+
+
+
+
+
+
 411370717,data/raw/images/Spotted Lanternfly/411370717.jpg,slf_egg_mass,true,Eggs confirmed visually
 406788688,data/raw/images/Spotted Lanternfly/406788688.jpg,slf_egg_mass,true,Eggs confirmed visually
 406838545,data/raw/images/Spotted Lanternfly/406838545.jpg,slf_egg_mass,true,Eggs confirmed visually
@@ -59,3 +174,33 @@ observation_id,local_image_path,label,verified,notes
 410559608,data/raw/images/Spotted Lanternfly/410559608.jpg,slf_egg_mass,true,Eggs confirmed visually
 410611295,data/raw/images/Spotted Lanternfly/410611295.jpg,slf_egg_mass,true,Eggs confirmed visually
 410993373,data/raw/images/Spotted Lanternfly/410993373.jpg,slf_egg_mass,true,Eggs confirmed visually
+404628693,data/raw/images/Spotted Lanternfly/404628693.jpg,slf_egg_mass,true,Eggs confirmed visually
+404798746,data/raw/images/Spotted Lanternfly/404798746.jpg,slf_egg_mass,true,Eggs confirmed visually
+405341641,data/raw/images/Spotted Lanternfly/405341641.jpg,slf_egg_mass,true,Eggs confirmed visually
+405559517,data/raw/images/Spotted Lanternfly/405559517.jpg,slf_egg_mass,true,Eggs confirmed visually
+405559829,data/raw/images/Spotted Lanternfly/405559829.jpg,slf_egg_mass,true,Eggs confirmed visually
+405819976,data/raw/images/Spotted Lanternfly/405819976.jpg,slf_egg_mass,true,Eggs confirmed visually
+406176769,data/raw/images/Spotted Lanternfly/406176769.jpg,slf_egg_mass,true,Eggs confirmed visually
+406353991,data/raw/images/Spotted Lanternfly/406353991.jpg,slf_egg_mass,true,Eggs confirmed visually
+406354116,data/raw/images/Spotted Lanternfly/406354116.jpg,slf_egg_mass,true,Eggs confirmed visually
+406354294,data/raw/images/Spotted Lanternfly/406354294.jpg,slf_egg_mass,true,Eggs confirmed visually
+411475789,data/raw/images/Spotted Lanternfly/411475789.jpg,slf_egg_mass,true,Eggs confirmed visually
+411642659,data/raw/images/Spotted Lanternfly/411642659.jpg,slf_egg_mass,true,Eggs confirmed visually
+411642714,data/raw/images/Spotted Lanternfly/411642714.jpg,slf_egg_mass,true,Eggs confirmed visually
+411742599,data/raw/images/Spotted Lanternfly/411742599.jpg,slf_egg_mass,true,Eggs confirmed visually
+412016020,data/raw/images/Spotted Lanternfly/412016020.jpg,slf_egg_mass,true,Eggs confirmed visually
+412308341,data/raw/images/Spotted Lanternfly/412308341.jpg,slf_egg_mass,true,Eggs confirmed visually
+412529329,data/raw/images/Spotted Lanternfly/412529329.jpg,slf_egg_mass,true,Eggs confirmed visually
+412669721,data/raw/images/Spotted Lanternfly/412669721.jpg,slf_egg_mass,true,Eggs confirmed visually
+412846944,data/raw/images/Spotted Lanternfly/412846944.jpg,slf_egg_mass,true,Eggs confirmed visually
+412864955,data/raw/images/Spotted Lanternfly/412864955.jpg,slf_egg_mass,true,Eggs confirmed visually
+413003809,data/raw/images/Spotted Lanternfly/413003809.jpg,slf_egg_mass,true,Eggs confirmed visually
+409787842,data/raw/images/Spotted Lanternfly/409787842.jpg,slf_egg_mass,true,Eggs confirmed visually
+373769387,data/raw/images/Spotted Lanternfly/373769387.jpg,slf_egg_mass,true,Eggs confirmed visually
+388587241,data/raw/images/Spotted Lanternfly/388587241.jpg,slf_egg_mass,true,Eggs confirmed visually
+393919465,data/raw/images/Spotted Lanternfly/393919465.jpg,slf_egg_mass,true,Eggs confirmed visually
+396721286,data/raw/images/Spotted Lanternfly/396721286.jpg,slf_egg_mass,true,Eggs confirmed visually
+354493962,data/raw/images/Spotted Lanternfly/354493962.jpg,slf_egg_mass,true,Eggs confirmed visually
+354503953,data/raw/images/Spotted Lanternfly/354503953.jpg,slf_egg_mass,true,Eggs confirmed visually
+354504430,data/raw/images/Spotted Lanternfly/354504430.jpg,slf_egg_mass,true,Eggs confirmed visually
+354703486,data/raw/images/Spotted Lanternfly/354703486.jpg,slf_egg_mass,true,Eggs confirmed visually
