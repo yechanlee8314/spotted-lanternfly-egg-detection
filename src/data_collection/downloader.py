@@ -1,4 +1,5 @@
-# downloads the images directly from the df metadata
+# downloads the images directly from the df metadata, all images comes from iNaturalist.com and currently the species name need to be hardcoded in
+# if posible code it so that the species can be arguments the program can take in
 from pathlib import Path
 import requests
 import os
